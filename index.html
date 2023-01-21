@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <div class="profile_container">
+                <div class="profile_profileImg">
+                    <img src="./images/ResumePic.png" alt="">
+                </div>
+                <div>
+                    <h1 class="profile_name">
+                       <span class="profile_name_fname">Tarun</span> 
+                       <span class="profile_name_lname">Raja</span> 
+                    </h1>
+                    <p class="profile_title">Software Developer</p>
+                    <p class="profile_description">
+                        Currently studying Bachelor of Software Engineering (Honours) and a Diploma of Professional Engineering
+                        Practice at UTS. Seeking a 6-month internship to deepen my understanding of software processes, hone my
+                        coding skills and become a valuable member of your company
+                    </p>
+                    <a class="btn" href="#">Download Resume</a>
+                    <a id="download-link" href="./Resume.pdf" download="Resume.pdf"></a>
+                    <script>
+                        document.getElementById("download-button").onclick = function() {
+                            document.getElementById("download-link").click();
+                        };
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="group-1">
+            <div class="technical_skills">
+                <h3 class="title">Technical Skills</h3>
+                    <h4 class="tech_skill_name">Languages</h4>
+                    <ul class="skill_list description" id="bullet_point_color">
+                        <li>Java</li> 
+                        <li>Python</li> 
+                        <li>TypeScript & JavaScript</li> 
+                        <li>SQL</li>        
+                    </ul> 
+                    <h4 class="tech_skill_name">Systems</h4>
+                    <ul class="skill_list description" id="bullet_point_color">   
+                        <li>SYSTEMS: Windows, Linux (Ubuntu), Macintosh</li>      
+                    </ul> 
+                    <h4 class="tech_skill_name">Systems</h4>   
+                    <ul class="skill_list description" id="bullet_point_color">   
+                        <li>SOFTWARE: MS Office (Word, PowerPoint, Excel, Outlook)</li>                    
+                    </ul>           
+            </div>
+            <div class="core_skills">
+                <h3 class="title">Core Skills</h3>
+                <div class="core_skills_item">
+                    <h4 class="core_skills_name">Team Leading Skills</h4>
+                    <p class="description">
+                        Demonstrated by leading a business consulting project for a volunteering organisation, HammondCare    
+                    </p>
+                </div>
+                <div class="core_skills_item">
+                    <h4 class="core_skills_name">Delivering results</h4>
+                    <p class="description">
+                        Shown through the varying social media campaigns that were created as a result of the Hammondcare Business Consulting Project that I led
+                    </p>
+                </div>
+                <div class="core_skills_item">
+                    <h4 class="core_skills_name">Languages</h4>
+                    <p class="description">
+                        Fluent speaker in English and Tamil
+                    </p>
+                </div>
+            </div>
+            <div class="education">
+                <h3 class="title">Education</h3>
+                <div class="edu_item">
+                    <p class="date">2020 - 2025 (expected)</p>
+                    <h4 class="item_title">Bachelor of Engineering (Software)(Honours) + Diploma in Professional Engineering Practice</h4>
+                    <p class="item_subtitle">
+                        University of Technology Sydney
+                    </p>
+                </div>
+                <div class="edu_item">
+                    <p class="date">2013 - 2018</p>
+                    <h4 class="item_title">Higher School Certificate (90.45 ATAR)</h4>
+                    <p class="item_subtitle">
+                        Model Farms High School
+                    </p>
+                </div>
+            </div>
+            <div class="certification">
+                <h3 class="title">Certification</h3>
+                <div class="cert_item">
+                    <p class="date">2022</p>
+                    <h4 class="item_title">Google Cloud Fundamentals: Core Infrastructure</h4>
+                    <p class="item_subtitle">Coursera, authorised by Google Cloud</p>
+                </div>
+            </div>
+            <div class="volunteering">
+                <h3 class="title">Volunteering</h3>
+                <div class="vol_item">
+                    <p class="date">July 2022</p>
+                    <h4 class="item_title">UTS SOUL Award</h4>
+                    <ul class="vol description" id="bullet_point_color">
+                        <li>Embarked on a 10-day volunteering experience through a UTS club, The Big Lift</li> 
+                        <li>Travelled to 5 different regional towns to help renovate local schools and wider communities</li>
+                        <li>Presented the opportunity to do afore-mentioned Business Consultation Project</li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="group-2">
+            <div class="experience">
+                <h3 class="title">Experience</h3>
+                <div class="exp_item">
+                    <p class="date">Aug 2022 - Oct 2022</p>
+                    <h4 class="item_title">AgriWebb</h4>
+                    <p class="item_subtitle">Software Development Studio - UTS</p>
+                    <ul class="exp description" id="bullet_point_color">
+                        <li>Learning TypeScript/JavaScript using Angular framework for a university project partnering with AgriWebb</li> 
+                        <li>Collaborating in an agile 8-member project development student team in a ‘Software Engineer’ role</li>
+                        <li>Developing communication and teamwork skills in a professional workplace setting</li>        
+                    </ul>
+                </div>
+                <div class="exp_item">
+                    <p class="date">July 2022</p>
+                    <h4 class="item_title">Business Consultation Project</h4>
+                    <p class="item_subtitle">HammondCare - UTS SOUL AWARD Volunteering Business Consulting Project</p>
+                    <ul class="exp description" id="bullet_point_color">
+                        <li>Led a 5-member university student team to provide business consultation for a large volunteering organisation, Hammondcare</li> 
+                        <li>Designed client/volunteer social media recruitment strategies that led to the implementation of various advertising campaigns through different social media platforms. The project delivered positive organisational outcomes in volunteer recruitment</li>
+                        <li>Demonstrated team leading, communication and conflict resolution skills</li>        
+                    </ul>
+                </div>
+                <div class="exp_item">
+                    <p class="date">Nov 2021 - Present</p>
+                    <h4 class="item_title">Private/Contract Tutoring</h4>
+                    <p class="item_subtitle">Private/EzyMaths Contract Tutoring</p>
+                    <ul class="exp description" id="bullet_point_color">
+                        <li>Tutoring maths for two Year 7 and Year 8 students privately and two Year 7 students contractually through EzyMaths Tutoring</li> 
+                        <li>Improved all student’s marks by a letter grade within 6 months</li>
+                        <li>Developing time management skills while balancing university full-time study workloads</li> 
+                        <li>Enhanced communication skills with students and parents, as well as presentation skills of key maths concepts to ensure students deepen understanding and boost exam marks</li>       
+                    </ul>
+                </div>
+            </div>
+            <div class="references">
+                <h3 class="title">References</h3>
+                <div class="ref_item">
+                    <p class="description">
+                        Available upon request
+                    </p>
+                </div>
+            </div>
+            <div class="interest">
+                <h3 class="title">Interest</h3>
+                <div class="int_items">
+                    <div class="int_item">
+                        <i data-feather="activity"></i>
+                        <span>Boxing + Weights</span>
+                    </div>
+                    <div class="int_item">
+                        <i data-feather="map"></i>
+                        <span>Travel</span>
+                    </div>
+                    <div class="int_item_yt" onclick="window.open('https://www.youtube.com/@tarunraja2006','_blank');">
+                        <i data-feather="youtube"></i>
+                        <span>Youtube</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="group-3">
+            <div class="contact">
+                <h3 class="title">Contact</h3>
+                <div class="contact_info">
+                    <p class="description">
+                        Sydney, Australia
+                    </p>
+                    <p class="description">
+                        0420510603
+                    </p>
+                    <p class="description">
+                        tarunraja2001@gmail.com
+                    </p>
+                </div>
+            </div>
+            <div class="socials">
+                <h3 class="title">Socials</h3>
+                <div class="social_item" onclick="window.open('https://github.com/TazRJ','_blank');">
+                    <i data-feather="github"></i>
+                    <span>/GitHub</span>
+                </div>
+                <div class="social_item" onclick="window.open('https://www.linkedin.com/in/tarun-raja-12a790245/','_blank');">  
+                    <i data-feather="linkedin"></i>
+                    <span>/LinkedIn</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
